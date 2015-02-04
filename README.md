@@ -9,5 +9,3 @@ El sistema administra a los proveedores que dan suministros para las conferencia
 Lenguajes de Programación: HTML, CSS, JavaScript y PHP.
 Motor de base de datos: MySQL.
 Entorno de desarrollo: Netbeans.
-
-Nota: Presionar clic en el nombre del proyecto para redireccionar a la aplicación.
