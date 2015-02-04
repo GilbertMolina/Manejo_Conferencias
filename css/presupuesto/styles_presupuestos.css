@@ -1,0 +1,257 @@
+body{
+	font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	background-image: url("../../imagenes/fondo.gif");
+	}
+	
+img.registrix{
+	position: absolute;
+	width: 225px;
+	height: 120px;
+	float: left;
+	}
+
+form{
+	padding:2px;
+	display:block;
+	width:450px;
+	margin-left: 360px; /*<-- Aqui se acomoda horizontalmente el fieldset*/
+	text-align:left;
+	}
+
+#principal{
+	font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	border:1px silver;
+	color: black;
+	margin-left: 180px;  /*<-- Aqui se acomoda horizontalmente el legend*/
+	}
+
+legend{
+	font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	border:1px silver;
+	color: black;
+	margin-left: 153px;  /*<-- Aqui se acomoda horizontalmente el legend*/
+	}
+	
+	
+input,select{
+	margin:2px;  /*<-- Aqui se acomoda verticalmente el boton de enviar*/
+	font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	display: block;
+	width: 200px;
+	}
+
+fieldset{
+	float: left;
+	width: 100%;
+	display: block;
+	line-height: 1;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	-moz-box-shadow: 0 10px 10px #999;
+	-webkit-box-shadow: 0 10px 10px #999;
+	}
+
+td {
+	width: 250px;
+	}
+	
+th {
+	background-color: #E6E6E6;
+	}
+	
+#titulo {
+	margin-left: 400px; /*<-- Aqui se acomoda horizontalmente el boton de enviar*/
+	margin-top: -25px; /*<-- Aqui se acomoda horizontalmente el boton de enviar*/
+	width:390px;
+	color: black;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-box-shadow: 0 8px 5px #999;
+    -webkit-box-shadow: 0 8px 5px #999;
+	background-color:lightblue;
+	text-align:center;
+	}
+	
+#enviar{
+    background: #222 repeat-x;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+	width: 100px;
+	margin-left: 340px; /*<-- Aqui se acomoda horizontalmente el boton de enviar*/
+	text-align: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px #999;
+    -webkit-box-shadow: 0 1px 3px #999;
+    text-shadow: 0 -1px 1px #222;
+    border-bottom: 1px solid #222;
+    position: relative;
+    cursor: pointer;
+	}
+
+#consulta{
+    background: #222 repeat-x;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+	width: 100px;
+	margin-left: 104px; /*<-- Aqui se acomoda horizontalmente el boton de enviar*/
+	text-align: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px #999;
+    -webkit-box-shadow: 0 1px 3px #999;
+    text-shadow: 0 -1px 1px #222;
+    border-bottom: 1px solid #222;
+    position: relative;
+    cursor: pointer;
+	}
+		
+.menu{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	}
+	
+.menu ul{
+	background:#333333;
+	height:35px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	
+.menu li{
+	float:left;
+	padding:0px;
+	}
+	
+.menu li a{
+	background:#333333 url("../../imagenes/seperator.gif") bottom right no-repeat;
+	color:#cccccc;
+	display:block;
+	font-weight:normal;
+	line-height:35px;
+	margin:0px;
+	padding:0px 25px;
+	text-align:center;
+	text-decoration:none;
+	}
+	
+.menu li a:hover, .menu ul li:hover a{
+	background: #2580a2 url("../../imagenes/hover.gif") bottom center no-repeat;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+	
+.menu li ul{
+	background:#333333;
+	display:none;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	position:absolute;
+	width:225px;
+	z-index:200;
+	}
+	
+.menu li:hover ul{
+	display:block;
+	}
+	
+.menu li li {
+	background:url('../../imagenes/sub_sep.gif') bottom left no-repeat;
+	display:block;
+	float:none;
+	margin:0px;
+	padding:0px;
+	width:225px;
+	}
+	
+.menu li:hover li a{
+	background:none;
+	}
+	
+.menu li ul a{
+	display:block;
+	height:35px;
+	font-size:12px;
+	font-style:normal;
+	margin:0px;
+	padding:0px 10px 0px 15px;
+	text-align:left;
+	}
+	
+.menu li ul a:hover, .menu li ul li:hover a{
+	background:#2580a2 url('../../imagenes/hover_sub.gif') center left no-repeat;
+	border:0px;
+	color:#ffffff;
+	text-decoration:none;
+	}
+	
+.menu p{
+	clear:left;
+	}
+
+/*Inicio de modificacion del 30/10/2011
+para acomodar la barra de navegacion, el fieldset y el footer*/
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 97%;
+}
+
+.wrapper {
+    min-height: 97%;
+    height: auto !important;
+    height: 97%;
+    margin: 0 auto -4em;
+}
+
+.footer, .push {
+    height: 4em;
+}
+
+.footer p {
+	margin:0 auto 0 auto;
+	text-align: center;
+	line-height: 65px;
+	color: #C00;
+	font-size: 14px;
+}
+
+.footer, .push {
+    clear: both;
+}
+
+#wrap { 
+	margin:0 auto 0 auto;
+	width:1200px;
+}
+#descripcionGasto{
+	font-size: 17px;
+	margin: 8px;  /*<-- Aqui se acomoda verticalmente el boton de enviar*/
+	text-align: center;
+}
+
+/*Fin de modificaciones*/
